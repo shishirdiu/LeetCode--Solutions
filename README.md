@@ -1,27 +1,49 @@
-# LeetCode #1: Two Sum
+# 🚀 LeetCode Journey: Mastering Data Structures & Algorithms
 
-##  Problem Description
-Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.
+Welcome to my LeetCode problem-solving repository!
 
-You may assume that each input would have exactly one solution, and you may not use the same element twice.
+This repository tracks my daily progress as I aim to solve LeetCode problems to strengthen my foundation in DSA.
 
-##  Example
-- **Input:** `nums = [2, 7, 11, 15]`, `target = 9`
-- **Output:** `[0, 1]`
-- **Explanation:** Because `nums[0] + nums[1] == 9`, we return `[0, 1]`.
+---
 
-##  Approach: One-Pass Hash Map
-Instead of using nested loops ($O(n^2)$), I used a **Hash Map** (Dictionary in Python) to solve this in linear time.
+## 📊 Progress Tracker
+| Difficulty | Solved | Target |
+| :--- | :--- | :--- |
+| 🟢 Easy | 02 | 200 |
+| 🟡 Medium | 00 | 150 |
+| 🔴 Hard | 00 | 50 |
+| **Total** | **02** | **400** |
 
-1. Create an empty dictionary `prevMap` to store the value and its index.
-2. Iterate through the array once.
-3. For each number `n`, calculate the difference: `diff = target - n`.
-4. If `diff` exists in `prevMap`, return the indices `[prevMap[diff], i]`.
-5. Otherwise, add the current number and its index to the map.
+---
 
-## Complexity Analysis
-- **Time Complexity:** $O(n)$ - We only traverse the list containing $n$ elements once. Each lookup in the table costs only $O(1)$ time.
-- **Space Complexity:** $O(n)$ - The extra space required depends on the number of items stored in the hash table, which stores at most $n$ elements.
+## 📂 Repository Structure
+The solutions are organized by problem number and topic. Each solution includes a detailed README explaining the approach and complexity analysis.
 
-## 🛠️ Language Used
-- Python 3
+| # | Problem Name | Difficulty | Topic 
+| :--- | :--- | :--- | :--- | :--- |
+| 001 | Two Sum | Easy | Array, Hash Table 
+| 002 | Add Two Numbers | Medium | Linked List, Math 
+
+---
+
+## 🛠️ Tech Stack
+- **Primary Language:** Python 3
+- **Tools:** Git, GitHub, VS Code
+- **Concepts:** Time & Space Complexity Analysis, Optimization
+
+---
+
+## 🌟 Why I Am Doing This
+Beyond my academic excellence and project experience, I believe that problem-solving is the core of software engineering. My goal is to:
+- Deepen my understanding of **Data Structures and Algorithms**.
+- Prepare for technical interviews at top-tier global companies.
+- Apply efficient logic to my **Full-stack Projects**.
+
+---
+
+## 🔗 Connect with Me
+- **LinkedIn:** 
+- **Email:** 
+
+---
+*Last Updated: 15 Feb 2024*
