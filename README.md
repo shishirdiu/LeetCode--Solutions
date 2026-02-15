@@ -1,4 +1,4 @@
-# 🚀 LeetCode Journey: Mastering Data Structures & Algorithms
+#  LeetCode Journey: Mastering Data Structures & Algorithms
 
 Welcome to my LeetCode problem-solving repository!
 
@@ -6,7 +6,7 @@ This repository tracks my daily progress as I aim to solve LeetCode problems to 
 
 ---
 
-## 📊 Progress Tracker
+##  Progress Tracker
 | Difficulty | Solved | Target |
 | :--- | :--- | :--- |
 | 🟢 Easy | 02 | 200 |
@@ -16,7 +16,7 @@ This repository tracks my daily progress as I aim to solve LeetCode problems to 
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 The solutions are organized by problem number and topic. Each solution includes a detailed README explaining the approach and complexity analysis.
 
 | # | Problem Name | Difficulty | Topic 
