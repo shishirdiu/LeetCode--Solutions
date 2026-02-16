@@ -21,8 +21,6 @@ Since both arrays are already sorted, I used a **Two-Pointer** technique to merg
 - **Time Complexity:** $O(m + n)$ — We traverse through both arrays exactly once.
 - **Space Complexity:** $O(m + n)$ — We create a new array to store the merged elements.
 
-> **Note:** While the problem suggests an $O(\log(m+n))$ solution using Binary Search, this $O(m+n)$ Two-Pointer approach is highly efficient and easier to implement correctly in a high-pressure interview setting.
-
 ##  Tech Stack
 - **Language:** Python 3
 - **Algorithm:** Two-Pointer, Merge Sort (Partial)
