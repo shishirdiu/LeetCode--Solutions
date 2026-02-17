@@ -1,4 +1,4 @@
-# LeetCode #5: Longest Palindromic Substring (Medium)
+# LeetCode #5: Longest Palindromic Substring 
 
 ## Problem Description
 Given a string `s`, return the **longest palindromic substring** in `s`. 
